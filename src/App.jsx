@@ -3,9 +3,9 @@ import React, { useEffect, useMemo, useState } from "react";
 const API_URL = "https://script.google.com/macros/s/AKfycbws07uXsdHGeEz3pikogSv0PoDo4H-HeVWen2FVNU7nUJOJLEu4Klz5ZiDkH6YzFNvC/exec";
 
 const colaboradoresIniciais = [
+  { id: "adriano", nome: "Adriano Lima da Silva", status: "Ativo", pin: "3456" },
   { id: "railson", nome: "Railson Deivison Soares Barbosa", status: "Ativo", pin: "1234" },
   { id: "theylo", nome: "Theylo Pereira Magalhães", status: "Ativo", pin: "2345" },
-  { id: "adriano", nome: "Adriano Lima da Silva", status: "Ativo", pin: "3456" },
 ];
 
 const tiposRegistro = [
