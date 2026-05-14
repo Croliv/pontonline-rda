@@ -1,0 +1,25 @@
+{
+  "name": "Ponto Online RDA",
+  "short_name": "Ponto RDA",
+  "description": "Sistema de ponto online da RDA",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#1f1f22",
+  "theme_color": "#f15a24",
+  "icons": [
+    {
+      "src": "/logo-rda.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/logo-rda.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
